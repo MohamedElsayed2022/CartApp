@@ -1,0 +1,6 @@
+input{
+    background-color: #3333;
+}
+#name , #email , #subject , #message {
+    background-color:rgb(52, 58, 64);
+}

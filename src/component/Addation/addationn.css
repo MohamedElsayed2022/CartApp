@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.benefit_row {
+    background-color: #f3f3f3;
+}
+.t{
+    font-size: 30px;
+    margin-top: 50px;
+}
