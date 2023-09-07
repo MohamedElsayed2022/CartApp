@@ -12,7 +12,6 @@ function App() {
       <Navbarr />
         <Routes>
           <Route path='/' element={<Home />}>Home</Route>
-          {/* <Route path='/products' element={<Products />}>Products</Route> */}
           <Route path='/Cart' element={<Cart />}>Products</Route>
           <Route path='/all' element={<AllProducts />}>Products</Route>
 

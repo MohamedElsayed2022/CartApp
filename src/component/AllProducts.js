@@ -1,5 +1,8 @@
 import React from 'react'
 import Products from './Products'
+import { BsFacebook } from 'react-icons/bs'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub } from 'react-icons/ai'
 
 function AllProducts() {
   return (
@@ -27,23 +30,9 @@ function AllProducts() {
 
         </a>
 
-      <a class="btn btn-outline-light btn-floating m-1" href="https://www.instagram.com/mo7med_alsayed/" target="-blank" role="button"
-        >
-                    <BsFacebook size={30} />
+    
 
-        </a>
-
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        >
-                    <BsFacebook size={30} />
-
-        </a>
-
-      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-        >
-                    <BsFacebook size={30} />
-
-        </a>
+      
     </section>
   </div>
 

@@ -10,21 +10,20 @@ import ContactUs from "./Contact-us/ContactUs";
 function Products() {
   const dispatch = useDispatch();
   const products = useSelector((state) => state.products);
-  const [isSuccess, setIsSuccess] = useState(false); // حالة النجاح
-  const [showAlert, setShowAlert] = useState(false); // حالة عرض الـ Alert
+  const [isSuccess, setIsSuccess] = useState(false); 
+  const [showAlert, setShowAlert] = useState(false); 
 
   useEffect(() => {
     dispatch(fetchProducts());
   }, []);
   const handleAddToCart = (product) => {
     dispatch(addToCart(product));
-    setIsSuccess(true); // قم بتعيين الحالة على true بعد النجاح
-    setShowAlert(true); // قم بتعيين حالة العرض على true لعرض الـ Alert
-
+    setIsSuccess(true); 
+    setShowAlert(true); 
   };
   setTimeout(() => {
-    setShowAlert(false); // بعد مرور 3 ثوانٍ، قم بتعيين حالة العرض على false لإخفاء الـ Alert
-    setIsSuccess(false); // قم بإعادة تعيين حالة النجاح على false
+    setShowAlert(false); 
+    setIsSuccess(false); 
   }, 6000); 
 
 

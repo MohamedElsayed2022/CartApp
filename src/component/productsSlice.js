@@ -4,20 +4,8 @@ import { createSlice , createAsyncThunk } from '@reduxjs/toolkit'
     const data = await res.json()
     return data
  })
-// export const productsSlice =createSlice({
-//     name:"productSlice",
-//     initialState:[],
-//     reducers:{},
-//     extraReducers: (builder)=>{
-//         builder.addCase(fetchProducts.fulfilled, (state , action)=>{
-//             return action.payload
-//         })
-//     }
-    
-    
-// })
 export const productsSlice = createSlice({
-    name: "productsSlice", // تصحيح الاسم هنا
+    name: "productsSlice", 
     initialState: [],
     reducers: {},
     extraReducers: (builder) => {
